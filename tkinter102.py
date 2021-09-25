@@ -9,7 +9,7 @@ class MyGui(Frame):
         button = Button(self,text='press',command=self.reply)
         button.pack()
     def reply(self):
-        showinfo(title='popup',message='Button pressed!')
+        showinfo(title='daydayup',message='Button pressed!')
 
 if __name__ == '__main__':
     window = MyGui()
